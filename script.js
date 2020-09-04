@@ -15,10 +15,13 @@ $(function () {
           contentType: false,
           success: function(data,status){
           if(data == "right")
-            window.location.replace("index.php");
+            window.location.replace("admin.html");
           else
             alert(data);
           }
       });
+  });
+  $("#back").click(function(){
+      window.location.replace("index.php");
   });
 });

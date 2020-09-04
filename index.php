@@ -31,9 +31,9 @@
 </head>
 
 <body>
-  <div id="preloader">
-    <img src="assets/img/hr_loader.gif" class="center">
-  </div>
+	<div id="preloader">
+		<img src="assets/img/hr_loader.gif" class="center">
+	</div>
     <!-- ======= Header ======= -->
 
   <!-- ======= Header ======= -->
@@ -43,15 +43,15 @@
       <div class="row justify-content-center">
         <div class="col-xl-11 d-flex align-items-center">
           <!-- Uncomment below if you prefer to use an image logo -->
-          <a href="index.html" class="hr_logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> 
-          <h1 class="logo mr-auto"><a href="index.html">Hydrosphere Reserve</a></h1>
+          <a href="index.php" class="hr_logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> 
+          <h1 class="logo mr-auto"><a href="index.php">Hydrosphere Reserve</a></h1>
 
           <nav class="nav-menu d-none d-lg-block">
             <ul>
-              <li class="active"><a href="index.html">Home</a></li>
+              <li class="active"><a href="index.php">Home</a></li>
               <li><a href="#about">About Us</a></li>
-              <li><a href="#portfolio">Our Works and Projects</a></li>
-              <li class="drop-down"><a href="">Team</a>
+              <li><a href="#portfolio">Our Projects</a></li>
+              <li class="drop-down"><a>Team</a>
                 <ul>
                   <li><a href="#technical">Technical</a></li>
                   <li><a href="#creative">Creative Works</a></li>
@@ -66,6 +66,7 @@
               <li><a href="#feedback" target="_blank">Feedback</a></li>
               <li><a href="#footer">Donate</a></li>
               <li><a href="#contact">Contact Us</a></li>
+              <li><a href="login.php">Admin</a></li>
 
             </ul>
           </nav><!-- .nav-menu -->
@@ -198,10 +199,6 @@ To create, rejuvenate or restore and conserve water resources, eventually bringi
 
       </div>
     </section><!-- End About Us Section -->
-
-    
-    
-  
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="section-bg">
       <div class="container" data-aos="fade-up">
@@ -312,6 +309,7 @@ To create, rejuvenate or restore and conserve water resources, eventually bringi
       </div>
     </section><!-- End Portfolio Section -->
 
+    
 
 <section id="technical">
   <div class="container" data-aos="fade-up">
@@ -475,7 +473,6 @@ To create, rejuvenate or restore and conserve water resources, eventually bringi
         <div class="section-header">
           <h3>Gallery</h3>
           <p>Click on the image for more details</p>
-
         </div>
 
         <div class="row">
@@ -617,7 +614,8 @@ To create, rejuvenate or restore and conserve water resources, eventually bringi
             <h4>Contact Us</h4>
             <p>
               <strong>Phone:</strong> +91 9600 941 779<br>
-              <strong>Email:</strong> hydrospherereserve@gmail.com<br>
+              <strong>Email:</strong> <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=hydrospherereserve@gmail.com" target="_blank">hydrospherereserve@gmail.com </a>
+<br>
             </p>
 
             <div class="social-links">
@@ -662,7 +660,7 @@ To create, rejuvenate or restore and conserve water resources, eventually bringi
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
-

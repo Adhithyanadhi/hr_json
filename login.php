@@ -10,7 +10,7 @@
     <meta name="keywords" content="Colorlib Templates">
 
     <!-- Title Page-->
-    <title>Add new volunteer</title>
+    <title>Admin Login</title>
 
 
     <link href="assets/img/logo.png" rel="icon">
@@ -30,38 +30,25 @@
 </head>
 
 <body>
-    <div class="page-wrapper bg-gra-01 p-t-100 p-b-100 font-poppins">
+    <div class="page-wrapper bg-gra-01 p-t-180 p-b-100 font-poppins">
         <div class="wrapper wrapper--w780">
-            <div class="card card-3">
-                <div class="card-heading"></div>
-                <div class="card-body">
-                    <h2 class="title">Add New Volunteer</h2>
-                    <form method="POST">
+            <div class="admin admin-3">
+                <div class="admin-heading"></div>
+                <div class="admin-body">
+                    <h2 class="title">Admin Login</h2>
+                    <form method="POST" action="login_process.php">
                         <div class="input-group">
                             <input class="input--style-3" type="text" placeholder="Name" id="name" name="name" autofocus required>
                         </div>
                         <div class="input-group">
-                            <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="team" id="team" required>
-                                    <option disabled="disabled" selected="selected">Team</option>
-                                      <option value="technical"> Technical </option>
-                                      <option value="creative works"> Creative works </option>
-                                      <option value="photography"> Photography </option>
-                                      <option value="literature"> Literature </option>
-                                      <option value="graphics and it">Graphics and IT</option>
-                                </select>
-                                <div class="select-dropdown"></div>
-                            </div>
-                        </div>
-                        <div class="input-group">
-                            <input class="input--style-3" type="file" placeholder="Name" id="file" name="img" required>
+                            <input class="input--style-3" type="password" placeholder="password" id="password" name="password" required>
                         </div>
                         <div class="p-t-10">
-                            <button class="btn btn--pill btn--green" id="submit">Add</button>
+                            <button class="btn btn--pill btn--green" type="submit" id="login">Login</button>
                             <button class="btn btn--pill btn--green" id="back">Back</button>
                         </div>
                     </form>
-                    </div>
+                </div>
             </div>
         </div>
     </div>
