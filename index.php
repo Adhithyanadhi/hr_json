@@ -326,7 +326,7 @@ To create, rejuvenate or restore and conserve water resources, eventually bringi
       ?>
       <div class="col-lg-3 col-md-6">
         <div class="member" data-aos="fade-up" data-aos-delay="100">
-          <img src= "<?php echo $path ?>.jpg" class="img-fluid" alt="">
+          <img src= "<?php echo $path ?>.jpg" class="img-fluid height" alt="">
             <div class="member-info">
               <div class="member-info-content">
                 <h4><?php echo $value; ?> </h4>
@@ -357,7 +357,7 @@ To create, rejuvenate or restore and conserve water resources, eventually bringi
       ?>
       <div class="col-lg-3 col-md-6">
         <div class="member" data-aos="fade-up" data-aos-delay="100">
-          <img src= "<?php echo $path ?>.jpg" class="img-fluid" alt="">
+          <img src= "<?php echo $path ?>.jpg" class="img-fluid height" alt="">
             <div class="member-info">
               <div class="member-info-content">
                 <h4><?php echo $value; ?> </h4>
@@ -388,7 +388,7 @@ To create, rejuvenate or restore and conserve water resources, eventually bringi
       ?>
       <div class="col-lg-3 col-md-6">
         <div class="member" data-aos="fade-up" data-aos-delay="100">
-          <img src= "<?php echo $path ?>.jpg" class="img-fluid" alt="">
+          <img src= "<?php echo $path ?>.jpg" class="img-fluid height" alt="">
             <div class="member-info">
               <div class="member-info-content">
                 <h4><?php echo $value; ?> </h4>
@@ -419,7 +419,7 @@ To create, rejuvenate or restore and conserve water resources, eventually bringi
       ?>
       <div class="col-lg-3 col-md-6">
         <div class="member" data-aos="fade-up" data-aos-delay="100">
-          <img src= "<?php echo $path ?>.jpg" class="img-fluid" alt="">
+          <img src= "<?php echo $path ?>.jpg" class="img-fluid height" alt="">
             <div class="member-info">
               <div class="member-info-content">
                 <h4><?php echo $value; ?> </h4>
@@ -450,7 +450,7 @@ To create, rejuvenate or restore and conserve water resources, eventually bringi
       ?>
       <div class="col-lg-3 col-md-6">
         <div class="member" data-aos="fade-up" data-aos-delay="100">
-          <img src= "<?php echo $path ?>.jpg" class="img-fluid" alt="">
+          <img src= "<?php echo $path ?>.jpg" class="img-fluid height" alt="">
             <div class="member-info">
               <div class="member-info-content">
                 <h4><?php echo $value; ?> </h4>

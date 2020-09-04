@@ -1,5 +1,5 @@
 <?php
-if($_POST['name'] == "admin" && $_POST['password'] == "password"){
+if($_POST['name'] == "Hydrosphere Reserve" && $_POST['password'] == "neerindriamaiyadhuulagu"){
 	header("Location: admin.html");
 }else{
 	echo "Invalid name or password";

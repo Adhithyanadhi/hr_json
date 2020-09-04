@@ -13,13 +13,15 @@ $(function () {
           data: fd,
           processData: false,
           contentType: false,
-          success: function(data,status){
-          if(data == "right")
-            window.location.replace("admin.html");
-          else
-            alert(data);
+          async : false,
+          success: function(data){
+            if(data == "success"){
+              alert(name + " has been added to " + team + " team Successfully");
+            }else{
+              alert(data);
+            }
           }
-      });
+     });
   });
   $("#back").click(function(){
       window.location.replace("index.php");
