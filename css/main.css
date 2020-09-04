@@ -440,7 +440,7 @@ input {
 }
 
 .card-3 .card-heading {
-  background: url("../logo.jpeg") top left/cover no-repeat;
+  background: url("../logo1.jpeg") top left/cover no-repeat;
   display: table-cell;
   width: 50%;
 }
